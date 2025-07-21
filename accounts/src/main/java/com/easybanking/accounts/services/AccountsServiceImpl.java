@@ -11,13 +11,16 @@ import com.easybanking.accounts.mapper.AccountsMapper;
 import com.easybanking.accounts.mapper.CustomerMapper;
 import com.easybanking.accounts.repository.AccountsRepository;
 import com.easybanking.accounts.repository.CustomerRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 import java.util.Random;
-
+@Service
+@RequiredArgsConstructor
 public class AccountsServiceImpl implements IAccountsService {
-    private AccountsRepository accountsRepository;
-    private CustomerRepository customerRepository;
+    private final AccountsRepository accountsRepository;
+    private final CustomerRepository customerRepository;
 
     /**
      * @param customerDto - CustomerDto Object
