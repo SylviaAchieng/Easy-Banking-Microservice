@@ -16,7 +16,7 @@ import java.util.Random;
 @Service
 @AllArgsConstructor
 public class CardsServiceImpl implements ICardsService{
-    private CardsRepository cardsRepository;
+    private final CardsRepository cardsRepository;
 
     /**
      * @param mobileNumber - Mobile Number of the Customer
