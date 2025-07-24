@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EasyBanking cards QA APIs"
+  contactDetails:
+    name: "Achieng - QA lead"
+    email: "achieng156@gmail.com"
+  onCallSupport:
+    -(666) 555-1234
+    -(666) 523-1345
