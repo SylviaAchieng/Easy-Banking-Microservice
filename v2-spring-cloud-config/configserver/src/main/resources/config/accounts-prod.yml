@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EasyBanking accounts prod APIs"
+  contactDetails:
+    name: "Sylvia - Product Owner"
+    email: "sylviaachieng156@gmail.com"
+  onCallSupport:
+    -(555) 555-1234
+    -(555) 523-1345
